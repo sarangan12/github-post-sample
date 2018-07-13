@@ -8,6 +8,7 @@ class Stack
   end
 
   def pop
+    puts 'Popping Value....'
     @array.pop
   end
 
