@@ -1,0 +1,9 @@
+sudo: false
+language: ruby
+rvm:
+  - 2.3
+before_install:
+  - gem install bundler
+script:
+  - bundle install --gemfile=Gemfile 
+  - bundle exec rake spec
